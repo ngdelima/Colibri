@@ -1,0 +1,14 @@
+#ifndef COMMANDS_H
+#define COMMANDS_H
+
+#define COMMAND_MAX_SIZE 10
+
+#define COMMAND_ID_POSITION			0x0
+
+#define COMMAND_START_DRONE 		0x00
+#define COMMAND_STOP_DRONE 			0x01
+
+#define COMMAND_SET_MOTOR_SPEED 	0x02
+
+
+#endif
