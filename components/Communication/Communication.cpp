@@ -52,7 +52,7 @@ void Communication::echo_task(void *arg)
 		while(true)
 		{
 			// Read data from the UART
-			int lenght = uart_read_bytes(UART_PORT_NUM, data, BUF_SIZE, 20 / portTICK_RATE_MS);
+			int lenght = uart_read_bytes(UART_PORT_NUM, data, BUF_SIZE, 20 / portTICK_PERIOD_MS);
 
 			// TODO: remove following code and put it in the rxTask
 			drone->addCommandToQueue(data, lenght);

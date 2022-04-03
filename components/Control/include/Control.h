@@ -88,4 +88,4 @@ private:
 	Motor mMotors[MOTOR_COUNT];
 };
 
-#endif CONTROL_H
+#endif

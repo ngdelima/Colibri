@@ -1,2 +1,5 @@
 idf_component_register(SRCS "main.cpp"
-                    INCLUDE_DIRS ".")
+					PRIV_REQUIRES driver
+                    INCLUDE_DIRS "."
+                    REQUIRES Communication
+                    REQUIRES Drone)
